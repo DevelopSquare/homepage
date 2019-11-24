@@ -31,6 +31,8 @@
     width:100%;
     height:auto;
     max-height:100px;
+    background:url("../img/DevelopSquare Logo.png") center no-repeat;
+    background-size:contain;
 }
 
 .header-right{
@@ -40,23 +42,41 @@
     background:none;
     position:relative;
     vertical-align:bottom;
+
 }
 
 .header-right li {
 
     list-style:none;
     width:20%;
-    background:yellow;
+    background:none;
     display:inline-block;
     font-size:20px;
     text-align:center;
     padding:auto;
+
+
+
+}
+
+.header-right a{
+
+     text-decoration:none;
+    color : white;
+}
+
+.header-right a:hover{
+
+    color : red;
 }
 
 .header-right ul{
+
     position:absolute;
-    top:40px;
+    top:70px;
     text-align:right;
-    background:green;
+    background:none;
     width:100%;
+
+
 }

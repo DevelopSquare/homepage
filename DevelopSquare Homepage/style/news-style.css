@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .news-area{
-    height:400px;
+    height:100vh;
     width:auto;
 
     background:yellow;
