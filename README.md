@@ -1,2 +1,2 @@
 # Learning
-this repository for learning somthings
+DevelopSquareのLearingですby藤澤

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.main-area{
+    height:90vh;
+    width:auto;
+    background:url("../img/background01.jpg") center no-repeat;
+    background-size:cover;
+
+    position: relative;
+
+}
+
+.main-area .main-img{
+    height:400px;
+    width:auto;
+    max-width:100%;
+}
+
+.main-area .container{
+     height:80%;
+    width:90%;
+
+    position: absolute;  /*要素を浮かす*/
+    /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; /*上下左右中央に*/
+
+    background:red;
+}
+
+.main-area h1{
+    font-size:5vw;
+    text-align:center
+
+}
+
