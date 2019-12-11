@@ -1,0 +1,33 @@
+/*タブレットサイズ*/
+/*横画面が600pxより小さい時のCSS*/
+#title{
+  /* background: red; */
+  width: 50%;
+  font-size: 6vh;
+}
+
+#header-menue{
+  position: absolute;
+  right:3%;
+  bottom:3vh;
+}
+
+#header-menue a{
+  font-size: 3vh;
+  width: 10%;
+}
+
+#prof-title{
+  line-height: 7vh;
+  font-size: 6vh;
+  height: 7vh;
+}
+
+#prof-main {
+  font-size: 3vh;
+}
+
+#footer p{
+  line-height: 7vh;
+  font-size: 2vh;
+}
