@@ -1,0 +1,20 @@
+body{
+    background-image: url("images/venus.jpeg");
+}
+.title{
+    text-align: center;
+    font-size: 100px;
+    color:red;
+}
+.blessing{
+    font-size: 200px;
+    color: pink;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width:700px;
+    line-height: 200px;
+    box-shadow: 4px 0px 30px 10px pink;
+    margin-left: 300px;
+    margin-top: 200px;>
+}
