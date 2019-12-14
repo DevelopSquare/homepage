@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background-color: ; 
+    background-color: azure; 
 }
 .main-area{
     height:90vh;
@@ -41,8 +41,14 @@ body{
 
 }
 
+.main{
+    font-size: 130%;
+    padding-top: 40px;
+    text-align: center;
+}
 
-.member{
+.member {
+    opacity: 90%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5%;
@@ -51,19 +57,29 @@ body{
     margin-bottom: 10%;
 }
 
+.member :hover {
+    box-shadow: 0px 0px 19px 10px black;
+    position: relative;
+    height: 180px;
+    opacity: 100%;
+    background-color: ;
+    transition: 0.3s;   
+}
+
 .name{
-    
-    opacity: 1000%;
-    color: white;
+    font-weight: 999;
+    font-size: 135%;
+    opacity: 100%;
+    color: ghostwhite;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 140px;
 }
 
 #square-button {
 
   width: 180px;
   height: 180px;
-  background: red;
+  background: rgb(250,20,1);
 }
 #square-button.blue {
   background: #21759b;
@@ -72,7 +88,7 @@ body{
 #square-button2 {
   width: 180px;
   height: 180px;
-  background: yellow;
+  background: rgb(999,200,0);
 }
 #square-button2.blue {
   background: #21759b;
@@ -81,7 +97,7 @@ body{
 #square-button3 {
   width: 180px;
   height: 180px;
-  background: blue;
+  background: rgb(0,40,999);
 }
 #square-button3.blue {
   background: #21759b;
@@ -99,7 +115,7 @@ body{
 #square-button5 {
   width: 180px;
   height: 180px;
-  background: orange;
+  background: rgb(800,100,40);
 }
 #square-button5.blue {
   background: #21759b;
@@ -108,7 +124,7 @@ body{
 #square-button6 {
   width: 180px;
   height: 180px;
-  background: skyblue;
+  background: rgb(0,160,999);
 }
 #square-button6.blue {
   background: #21759b;
