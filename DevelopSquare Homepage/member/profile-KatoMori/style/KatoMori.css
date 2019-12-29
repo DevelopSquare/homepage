@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .header{
@@ -62,11 +63,12 @@
 }
 
 .contentarea{
-    height:500px;
-    width: 45%;
-    margin-left: 50px; 
+    height:50%;
+    width: 50%;
+    margin:0 1%; 
     background-color: aliceblue;
     margin-top: 20px;
+    height:auto;
 }
 
 .contentarea > p{
@@ -98,6 +100,7 @@
 .footer{
     height: 100px;
     background-color: skyblue;
+   
 }
 .footer-left{
     float: left;
@@ -109,4 +112,16 @@
 }
 .footer-left p{
     margin-bottom: 8px;
+}
+@media(max-width:560px){ /*スマホ*/
+    .twopro{
+        width:100%;
+    }
+.contentarea{
+    width: 100%;
+    margin-left: 0 1%; 
+    background-color: aliceblue;
+    margin-top: 20px;
+    height:auto;
+}
 }
