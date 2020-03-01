@@ -1,39 +1,57 @@
 @charset "utf-8";
+body{
+  /*純色を避ける*/
+  background: #f0f8ff;
+}
+
+h1{
+  text-align:center;
+}
 
 .main-area{
-    height:90vh;
-    width:auto;
-    background-size:cover;
-    position: relative;
-    color:white;
+    /* producutのheight*要素数 */
+    height:840px;
+    /* producutのwidth*要素数 +左右の要素隙間*/
+    width: 1230px;
+    margin:0  auto;
+    margin-bottom:40px;
 }
 
-.main-area .main-img{
-    height:400px;
-    width:auto;
-    max-width:100%;
-
-
+/* 共通要素の設定 */
+.product,.Img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 200px;
+  width: 600px;
 }
 
-.main-area .container{
-     height:50%;
-    width:90%;
-
-    position: absolute;  /*要素を浮かす*/
-    /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; /*上下左右中央に*/
-
-    background:none;
+.product{
+  border: solid 1px black;
+  text-align: center;
 }
 
-.main-area h1{
-    font-size:5vw;
-    text-align:center
+.left-product{
+  position: relative;
+  float: left;
+}
 
 
+.right-product{
+  position: relative;
+  /* 写真がないので調整 */
+  left: 660px;
+}
+
+
+/* コンテンツの色設定 */
+.timecapsule{
+  background: linear-gradient(90deg, #8d93c8, #25b7c0);
+}
+
+.Tdbordgame{
+  background: linear-gradient(90deg, #ff8c00, #ffa07a);
+}
+
+.unknown{
+  background: linear-gradient(90deg, #32cd32,#5f9ea0);
 }
