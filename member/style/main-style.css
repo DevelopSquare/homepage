@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background-color: azure; 
+    background-color: azure;
 }
 .main-area{
     height:90vh;
@@ -16,7 +16,6 @@ body{
     height:400px;
     width:auto;
     max-width:100%;
-
 }
 
 .main-area .container{
@@ -37,8 +36,6 @@ body{
 .main-area h1{
     font-size:5vw;
     text-align:center
-
-
 }
 
 .main{
@@ -48,84 +45,59 @@ body{
 }
 
 .member {
+    width: 1200px;
     opacity: 90%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5%;
-    margin-left: 7%;
-    margin-right: 0%;
-    margin-bottom: 10%;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom:35px;
 }
 
 .member :hover {
     box-shadow: 0px 0px 19px 10px black;
-    position: relative;
     height: 180px;
     opacity: 100%;
     background-color: ;
-    transition: 0.3s;   
+    transition: 0.3s;
 }
 
-.name{
-    font-weight: 999;
-    font-size: 135%;
-    opacity: 100%;
-    color: ghostwhite;
-    text-align: center;
-    padding-top: 140px;
+/* 名前の位置と書式 */
+.member p{
+  font-size: 23px;
+  color: ghostwhite;
+  text-align: center;
+  padding-top: 140px;
 }
 
 #square-button {
-
-  width: 180px;
-  height: 180px;
   background: rgb(250,20,1);
-}
-#square-button.blue {
-  background: #21759b;
 }
 
 #square-button2 {
-  width: 180px;
-  height: 180px;
   background: rgb(999,200,0);
-}
-#square-button2.blue {
-  background: #21759b;
 }
 
 #square-button3 {
-  width: 180px;
-  height: 180px;
   background: rgb(0,40,999);
-}
-#square-button3.blue {
-  background: #21759b;
 }
 
 #square-button4 {
-  width: 180px;
-  height: 180px;
   background: green;
-}
-#square-button4.blue {
-  background: #21759b;
 }
 
 #square-button5 {
-  width: 180px;
-  height: 180px;
   background: rgb(800,100,40);
-}
-#square-button5.blue {
-  background: #21759b;
 }
 
 #square-button6 {
-  width: 180px;
-  height: 180px;
   background: rgb(0,160,999);
 }
-#square-button6.blue {
+
+.square{
+  width: 180px;
+  height: 180px;
+  margin-left: 10px;
+  margin-right:10px;
   background: #21759b;
 }
