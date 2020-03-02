@@ -3,7 +3,7 @@
 .news-area{
     height:100vh;
     width:auto;
-    background:yellow;
+    background:#fafad2;
     font-size:2vw;
     text-align:center;
 
@@ -36,4 +36,3 @@
     text-decoration:none;
     color:red;
 }
-
