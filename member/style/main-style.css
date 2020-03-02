@@ -1,0 +1,103 @@
+@charset "utf-8";
+body{
+    background-color: azure;
+}
+.main-area{
+    height:90vh;
+    width:auto;
+    background:url("../img/background01.jpg") center no-repeat;
+    background-size:cover;
+
+    position: relative;
+ color:white;
+}
+
+.main-area .main-img{
+    height:400px;
+    width:auto;
+    max-width:100%;
+}
+
+.main-area .container{
+     height:50%;
+    width:90%;
+
+    position: absolute;  /*要素を浮かす*/
+    /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; /*上下左右中央に*/
+
+    background:none;
+}
+
+.main-area h1{
+    font-size:5vw;
+    text-align:center
+}
+
+.main{
+    font-size: 130%;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.member {
+    width: 1200px;
+    opacity: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom:35px;
+}
+
+.member :hover {
+    box-shadow: 0px 0px 19px 10px black;
+    height: 180px;
+    opacity: 100%;
+    background-color: ;
+    transition: 0.3s;
+}
+
+/* 名前の位置と書式 */
+.member p{
+  font-size: 23px;
+  color: ghostwhite;
+  text-align: center;
+  padding-top: 140px;
+}
+
+#square-button {
+  background: rgb(250,20,1);
+}
+
+#square-button2 {
+  background: rgb(999,200,0);
+}
+
+#square-button3 {
+  background: rgb(0,40,999);
+}
+
+#square-button4 {
+  background: green;
+}
+
+#square-button5 {
+  background: rgb(800,100,40);
+}
+
+#square-button6 {
+  background: rgb(0,160,999);
+}
+
+.square{
+  width: 180px;
+  height: 180px;
+  margin-left: 10px;
+  margin-right:10px;
+  background: #21759b;
+}
