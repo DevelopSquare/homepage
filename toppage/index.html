@@ -4,22 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="DevelopSquare" content="Toppage">
-
-      <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
-
-      <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
-
-
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
     <link rel="stylesheet" href="style/header-style.css">
-      <link rel="stylesheet" href="style/main-style.css">
-      <link rel="stylesheet" href="style/product-style.css">
-      <link rel="stylesheet" href="style/news-style.css">
-      <link rel="stylesheet" href="style/footer-style.css">
+    <link rel="stylesheet" href="style/main-style.css">
+    <link rel="stylesheet" href="style/product-style.css">
+    <link rel="stylesheet" href="style/news-style.css">
+    <link rel="stylesheet" href="style/footer-style.css">
 
-
-
-      <!-- download(?) Jquery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- download(?) Jquery for slick-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
     <title>DevelopSquare TopPage</title>
@@ -49,22 +43,31 @@
 
     <div class="main-area">
         <div class="container">
-
             <h1>世の為、我の為のモノづくり</h1>
-
         </div>
     </div>
     <!-- main-area 終わり -->
 
    <div class="product-area">
-       <h1>  PRODUCT</h1>
+       <h1>PRODUCT</h1>
        <ul class="slider">
 
-           <li><a href="#" ><img src="img/background01.jpg"></a></li>
-           <li><a href="#" ><img src="img/background02.jpg"></a></li>
-           <li><a href="#" ><img src="img/background03.jpg"></a></li>
+           <li id="capsule-intro">
+                <a href="../products/index.html">
+                  <h2>TimeCapsuleService</h2>
+                </a>
+                <h3>このWebアプリケーションでは未来へメッセージを届けることができます。</h3>
+                <img src="../products/img/TimeCapsuleImg.png" alt="Service Image">
+           </li>
 
-        </ul>
+           <li id="bord-intro">
+                <a href="../products/index.html">
+                  <h2>3Dボードゲーム(仮名)</h2>
+                </a>
+                  <h3><span id="coming">Coming soon...</span></h3>
+           </li>
+
+      </ul>
 
 
       <script type="text/javascript" src="js/product_slidshow.js"></script>
@@ -72,22 +75,17 @@
     <!-- product-area 終わり -->
 
   <div class="news-area">
-
-      <h1>  NEWS</h1>
+      <h1>NEWS</h1>
         <div class="news-list">
-            <p>更新内容１</p>
-            <p>更新内容２</p>
-            <p>更新内容４</p>
-            <p>更新内容５</p>
-
+            <p>2019年11月14日  DevelopSquare発足</p>
+            <p>2020年 2月20日 「TimeCapsuleService」リリース</p>
+            <p>2020年 2月28日  新たなアプリーション開発に着手</p>
         </div>
   </div>
     <!-- news-area 終わり -->
 
   <div class="footer">
-        <div class="container">
-          <a href="https://twitter.com/DevelopSquare"><img src="img/twittericon.jpg" alt="twitterのアイコン" width=100px hright=100px></a>
-        </div>
+          <a href="https://twitter.com/DevelopSquare"><img src="img/twittericon.png" alt="twitterのアイコン" class="icon"></a>
   </div>
     <!-- footer 終わり -->
 

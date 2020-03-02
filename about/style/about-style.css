@@ -1,42 +1,15 @@
 @charset "utf-8";
 
 .about-area{
-    height: auto;
     width:auto;
     background:white;
     font-size:2vw;
     text-align:center;
-
     position:relative;
 }
 
 .about-area h1{
     margin: 20px 0;
-}
-
-.about-area .img{
-    height: 40vh;
-    width:auto;
-    background:url("../../toppage/img/background01.jpg") center no-repeat;
-    background-size:cover;
-    margin: 0 90px;
-    position: relative;
-    color:white;
-}
-
-.about-area .container{
-     height:50%;
-    width:90%;
-
-    position: absolute;  /*要素を浮かす*/
-    /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; /*上下左右中央に*/
-
-    background:none;
 }
 
 .about-area .box{
@@ -45,7 +18,12 @@
   width: cover;
   height: cover;
   background-color: white;
-  margin: 70px 200px 200px;
+  margin: 70px 200px 70px;
   position: relative;
   color: black;
+}
+
+#mainimg{
+  width: 50%;
+  border-radius: 30px;
 }

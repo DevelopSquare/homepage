@@ -3,7 +3,11 @@
 .footer{
     height:100px;
     width:auto;
-
     background:black;
 }
 
+.icon{
+  margin: 15px 0px 0px 90%;
+  width: 70px;
+  height: 70px;
+}

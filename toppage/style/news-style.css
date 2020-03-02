@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 .news-area{
-    height:100vh;
+    height:70vh;
     width:auto;
-    background:yellow;
+    background:#fafad2;
     font-size:2vw;
     text-align:center;
 
@@ -27,3 +27,6 @@
     margin:auto;
 }
 
+.news-list p{
+  font-size:150%;
+}
