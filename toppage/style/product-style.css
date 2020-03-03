@@ -11,7 +11,7 @@
 
 .slider{
     margin: 0% auto;
-    width: 00%;
+    width: 80%;
 }
 
 .slider li{
@@ -49,25 +49,15 @@
   opacity: 0.9;
   border-radius: 15px;
 }
-/* #bord-intro h3{
-  font-size: 50px;
-} */
-
 
 /*アイコンが画面外にはみ出るのを防ぐ*/
 @media screen and (max-width:639px) {
-  body{
-    background: red;
-  }
   .slider img{
   	max-width:400px;
   }
 }
 
 @media only screen and (min-width:640px) and (max-width:1023px) {
-  body{
-    background:gray;
-  }
   .slider img{
   	max-width:500px;
   }
