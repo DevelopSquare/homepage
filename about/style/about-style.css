@@ -15,12 +15,10 @@
 .about-area .box{
   display: block;
   vertical-align: middle;
-  width: cover;
-  height: cover;
   background-color: white;
-  margin: 70px 200px 70px;
   position: relative;
   color: black;
+  margin: 3%;
 }
 
 #mainimg{
