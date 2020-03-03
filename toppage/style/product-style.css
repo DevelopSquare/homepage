@@ -4,28 +4,26 @@
     width:auto;
     position: relative;
     background:none;
-
     font-size:2vw;
     text-align:center;
-
 }
 
 
 .slider{
     margin: 0% auto;
-    width: 80%;
+    width: 00%;
 }
+
+.slider li{
+  margin: 20px;
+  height: 300px;
+}
+
 .slider img{
   margin: 3% auto;
 	height: 100%;
   height: 70%;
 	max-height:300px;
-}
-
-.slider li{
-  margin: 20px;
-  height: 400px;
-  width: 50%;
 }
 
 /*slick setting*/
@@ -51,6 +49,30 @@
   opacity: 0.9;
   border-radius: 15px;
 }
-#bord-intro h3{
+/* #bord-intro h3{
   font-size: 50px;
+} */
+
+
+/*アイコンが画面外にはみ出るのを防ぐ*/
+@media screen and (max-width:639px) {
+  body{
+    background: red;
+  }
+  .slider img{
+  	max-width:400px;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  body{
+    background:gray;
+  }
+  .slider img{
+  	max-width:500px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+/*pc用のcssを記述*/
 }

@@ -7,9 +7,8 @@ body{
     width:auto;
     background:url("../img/background01.jpg") center no-repeat;
     background-size:cover;
-
     position: relative;
- color:white;
+    color:white;
 }
 
 .main-area .main-img{
@@ -19,9 +18,9 @@ body{
 }
 
 .main-area .container{
-     height:50%;
+    height:50%;
     width:90%;
-
+    background: red;
     position: absolute;  /*要素を浮かす*/
     /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
     top: 0;
@@ -29,13 +28,12 @@ body{
     bottom: 0;
     left: 0;
     margin: auto; /*上下左右中央に*/
-
     background:none;
 }
 
 .main-area h1{
     font-size:5vw;
-    text-align:center
+    text-align:center;
 }
 
 .main{
@@ -46,6 +44,7 @@ body{
 
 .member {
     width: 1200px;
+    height: 200px;
     opacity: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -62,13 +61,6 @@ body{
     transition: 0.3s;
 }
 
-/* 名前の位置と書式 */
-.member p{
-  font-size: 23px;
-  color: ghostwhite;
-  text-align: center;
-  padding-top: 140px;
-}
 
 #square-button {
   background: rgb(250,20,1);
@@ -94,10 +86,52 @@ body{
   background: rgb(0,160,999);
 }
 
+/* 名前の位置と書式 */
+.member p{
+  font-size: 23px;
+  color: ghostwhite;
+  text-align: center;
+  padding-top: 140px;
+}
+
 .square{
   width: 180px;
   height: 180px;
   margin-left: 10px;
   margin-right:10px;
   background: #21759b;
+}
+
+
+
+@media screen and (max-width:639px) {
+  .member{
+    height:1000px;
+    width: 400px;
+  }
+  .square{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right:10px;
+    background: #21759b;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  .member{
+    height:800px;
+    width: 600px;
+  }
+  .square{
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    margin-right:10px;
+    background: #21759b;
+  }
+}
+
+@media screen and (min-width:1024px) {
+/*pc用のcssを記述*/
 }
