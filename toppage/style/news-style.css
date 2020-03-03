@@ -1,32 +1,38 @@
 @charset "utf-8";
 
 .news-area{
-    height:70vh;
+    height:400px;
     width:auto;
     background:#fafad2;
     font-size:2vw;
     text-align:center;
-
     position:relative;
+    margin-top: 10px;
 }
 
 .news-list{
-    width:70%;
-    height:80%;
+    width:80%;
+    height:250px;
     overflow:auto;
     background:white;
     text-align:left;
-
-    position:absolute;
-    padding:5%;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-
     margin:auto;
+    margin-top: 10px;
 }
 
 .news-list p{
-  font-size:150%;
+  font-size:30px;
+}
+
+/*リストの文字サイズ調整*/
+@media screen and (max-width:1023px) {
+  .news-list p{
+    font-size:150%;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  .news-list p{
+    font-size:150%;
+  }
 }
