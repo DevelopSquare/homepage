@@ -53,7 +53,10 @@
 /*アイコンが画面外にはみ出るのを防ぐ*/
 @media screen and (max-width:639px) {
   .slider img{
-  	max-width:400px;
+  	display: none;
+  }
+  .slider li{
+    height:80px;
   }
 }
 
