@@ -43,11 +43,9 @@
     background:none;
     position:relative;
     vertical-align:bottom;
-
 }
 
 .header-right li {
-
     list-style:none;
     width:20%;
     background:none;
@@ -55,29 +53,35 @@
     font-size:20px;
     text-align:center;
     padding:auto;
-
-
-
 }
 
 .header-right a{
-
-     text-decoration:none;
+    text-decoration:none;
     color : white;
 }
 
 .header-right a:hover{
-
     color : red;
 }
 
 .header-right ul{
-
     position:absolute;
     top:70px;
     text-align:right;
     background:none;
     width:100%;
+}
 
 
+/*リストの文字サイズ調整*/
+@media screen and (max-width:1023px) {
+  .header-right li {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  .header-right li {
+    font-size: 15px;
+  }
 }

@@ -1,6 +1,5 @@
 @charset "utf-8";
 body{
-  /*純色を避ける*/
   background: #f0f8ff;
 }
 
@@ -12,7 +11,7 @@ h1{
     /* producutのheight*要素数 */
     height:840px;
     /* producutのwidth*要素数 +左右の要素隙間*/
-    width: 1230px;
+    width: 100%;
     margin:0  auto;
     margin-bottom:40px;
 }
@@ -21,8 +20,9 @@ h1{
 .product,.Img{
   margin-top: 40px;
   margin-bottom: 40px;
-  height: 200px;
-  width: 600px;
+  margin-left: 1%;
+  width: 48%;
+  min-width: 250px;
 }
 
 .product{
@@ -31,7 +31,6 @@ h1{
 }
 
 .left-product{
-  position: relative;
   float: left;
 }
 
@@ -39,9 +38,8 @@ h1{
 .right-product{
   position: relative;
   /* 写真がないので調整 */
-  left: 660px;
+  margin-left:51%;
 }
-
 
 /* コンテンツの色設定 */
 .timecapsule{
@@ -54,4 +52,21 @@ h1{
 
 .unknown{
   background: linear-gradient(90deg, #32cd32,#5f9ea0);
+}
+
+/*幅小さくなると画像表示が駄目になるので縦方向にならべる*/
+@media screen and (max-width:639px) {
+  .Img{
+    display: none;
+  }
+  .left-product,.right-product{
+    float: none;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  .product{
+    width: 90%;
+  }
+
 }

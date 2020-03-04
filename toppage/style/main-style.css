@@ -3,7 +3,7 @@
 .main-area{
     height:90vh;
     width:auto;
-    background:url("../img/background01.jpg") center no-repeat;
+    background:url("../img/background01.png") center no-repeat;
     background-size:cover;
 
     position: relative;
@@ -19,9 +19,8 @@
 }
 
 .main-area .container{
-     height:50%;
+    height:50%;
     width:90%;
-
     position: absolute;  /*要素を浮かす*/
     /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
     top: 0;
@@ -34,9 +33,5 @@
 }
 
 .main-area h1{
-    font-size:5vw;
     text-align:center
-
-
 }
-

@@ -3,7 +3,28 @@
 .footer{
     height:100px;
     width:auto;
-
     background:black;
 }
 
+.icon{
+  margin: 15px 0px 0px 90%;
+  width: 70px;
+  height: 70px;
+}
+
+/*アイコンが画面外にはみ出るのを防ぐ*/
+@media screen and (max-width:1023px) {
+  .icon{
+    margin: 15px 0px 0px 80%;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+  .icon{
+    margin: 15px 0px 0px 80%;
+    width: 70px;
+    height: 70px;
+  }
+}
