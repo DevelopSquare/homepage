@@ -2,16 +2,84 @@
     width: auto;
     height: 40vh;
     background: url("../../imgs/bg.png") center no-repeat;
-    background-size: cover; /** 横幅をフルで使用 */
+    background-size: cover;
+    display: flex;
+    /** 横幅をフルで使用 */
     position: relative;
 }
 
-.land-area h1 {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    color: white;
+.land-area span {
+    display: block;
+    font-size: 2rem;
+    margin: 5vh 0;
+    color: rgb(255, 255, 255);
+    animation: elm 5s infinite;
+}
+@keyframes elm {
+    25% {
+        transform: translate(100%, 5%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+    75% {
+        transform: translate(5%, 100%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+.land-area span:nth-child(1) {
+    margin-left: 3vw;
+}
+
+.land-area span:nth-child(2) {
+    animation-delay: 0.06s;
+}
+
+.land-area span:nth-child(3) {
+    animation-delay: 0.12s;
+}
+
+.land-area span:nth-child(4) {
+    animation-delay: 0.18s;
+}
+
+.land-area span:nth-child(5) {
+    animation-delay:  0.24s;
+}
+
+.land-area span:nth-child(6) {
+    animation-delay:  0.30s;
+}
+
+.land-area span:nth-child(7) {
+    animation-delay:  0.36s;
+}
+
+.land-area span:nth-child(8) {
+    animation-delay:  0.42s;
+}
+
+.land-area span:nth-child(9) {
+    animation-delay:  0.48s;
+}
+
+.land-area span:nth-child(10) {
+    animation-delay:  0.54s;
+}
+
+.land-area span:nth-child(11) {
+    animation-delay:  0.6s;
+}
+
+.land-area span:nth-child(12) {
+    animation-delay:  0.66s;
+}
+
+.land-area span:nth-child(13) {
+    animation-delay:  0.72s;
 }
 
 .main-block {
@@ -31,70 +99,70 @@
     background: none;
     font-size: 1.5rem;
     text-align: center;
-  }
-  
-  
-  .slider {
+}
+
+
+.slider {
     width: 100%;
     display: flex;
-  }
+}
 
-  .slider li {
+.slider li {
     height: 600px;
     margin: 0 1vw 0 1vw;
-  }
+}
 
-  .slider img {
+.slider img {
     width: 100%;
-  }
-  
-  /*slick setting*/
-  .slick-prev:before,
-  .slick-next:before {
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
     color: #000;
-  }
-  
-  /*リンクの設定*/
-  .slider a {
+}
+
+/*リンクの設定*/
+.slider a {
     margin: 2vh 2vw;
     text-decoration: none;
-  }
-  
-  .slider a:visited {
+}
+
+.slider a:visited {
     color: #000060;
-  }
-  
-  
-  #capsule-intro {
+}
+
+
+#capsule-intro {
     background: linear-gradient(90deg, rgba(104, 169, 207, 0.4), rgba(37, 183, 192, 0.4));
     opacity: 0.9;
     border-radius: 10px;
-  }
-  
-  #bord-intro {
+}
+
+#bord-intro {
     vertical-align: center;
     background: linear-gradient(90deg, rgba(104, 169, 207, 0.4), rgba(37, 183, 192, 0.4));
     opacity: 0.9;
     border-radius: 10px;
-  }
-  
-  /*アイコンが画面外にはみ出るのを防ぐ*/
-  @media screen and (max-width:639px) {
+}
+
+/*アイコンが画面外にはみ出るのを防ぐ*/
+@media screen and (max-width:639px) {
     .slider img {
-      display: none;
+        display: none;
     }
-  
+
     .slider li {
-      height: 80px;
+        height: 80px;
     }
-  }
-  
-  @media only screen and (min-width:640px) and (max-width:1023px) {
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
     .slider img {
-      max-width: 500px;
+        max-width: 500px;
     }
-  }
-  
-  @media screen and (min-width:1024px) {
+}
+
+@media screen and (min-width:1024px) {
     /*pc用のcssを記述*/
-  }
+}
