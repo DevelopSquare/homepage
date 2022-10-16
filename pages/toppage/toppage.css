@@ -13,9 +13,9 @@
     font-size: 2rem;
     margin: 5vh 0;
     color: rgb(255, 255, 255);
-    animation: elm 5s infinite;
+    animation: anm 5s infinite;
 }
-@keyframes elm {
+@keyframes anm {
     25% {
         transform: translate(100%, 5%);
     }

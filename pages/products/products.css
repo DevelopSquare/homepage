@@ -6,15 +6,23 @@
 }
 
 .product {
-  margin: 0 15vw 5vh 15vw;
+  margin: 0 10vw 5vh 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: anm 0.6s;
+}
+@keyframes anm {
+    0% {
+        transform: translate(200%, 0%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
 }
 
 .description {
   width: 50vw;
-  height: 200px;
   margin-left: 3vw;
   float: left;
 }
@@ -48,15 +56,13 @@
 
 /*幅小さくなると画像表示が駄目になるので縦方向にならべる*/
 @media screen and (max-width:639px) {
+  .description {
+    width: 70vw;
+    margin-left: 0;
+  }
+  
   .img {
     display: none;
-  }
-
-  .position-left, .position-right {
-    float: none;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
   .product {
