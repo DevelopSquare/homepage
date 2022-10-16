@@ -1,0 +1,12 @@
+.footer {
+  height: 6vh;
+  width: auto;
+  background: rgb(50, 50, 50);
+}
+
+.icon {
+  height: 5vh;
+  right: 0;
+  margin: 0.5vh 2vw 0 0; /** 上 右 下 左 */
+  position: absolute;
+}

@@ -1,0 +1,100 @@
+.land-area {
+    width: auto;
+    height: 40vh;
+    background: url("../../imgs/bg.png") center no-repeat;
+    background-size: cover; /** 横幅をフルで使用 */
+    position: relative;
+}
+
+.land-area h1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+.main-block {
+    height: 100vh;
+    margin: 5vh 10vw 0 10vw;
+}
+
+.twitter-area {
+    width: 30vw;
+    float: right;
+}
+
+.product-area {
+    width: 30vw;
+    float: left;
+    position: relative;
+    background: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  
+  .slider {
+    width: 100%;
+    display: flex;
+  }
+
+  .slider li {
+    height: 600px;
+    margin: 0 1vw 0 1vw;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+  
+  /*slick setting*/
+  .slick-prev:before,
+  .slick-next:before {
+    color: #000;
+  }
+  
+  /*リンクの設定*/
+  .slider a {
+    margin: 2vh 2vw;
+    text-decoration: none;
+  }
+  
+  .slider a:visited {
+    color: #000060;
+  }
+  
+  
+  #capsule-intro {
+    background: linear-gradient(90deg, rgba(104, 169, 207, 0.4), rgba(37, 183, 192, 0.4));
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  #bord-intro {
+    vertical-align: center;
+    background: linear-gradient(90deg, rgba(104, 169, 207, 0.4), rgba(37, 183, 192, 0.4));
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  /*アイコンが画面外にはみ出るのを防ぐ*/
+  @media screen and (max-width:639px) {
+    .slider img {
+      display: none;
+    }
+  
+    .slider li {
+      height: 80px;
+    }
+  }
+  
+  @media only screen and (min-width:640px) and (max-width:1023px) {
+    .slider img {
+      max-width: 500px;
+    }
+  }
+  
+  @media screen and (min-width:1024px) {
+    /*pc用のcssを記述*/
+  }

@@ -1,0 +1,77 @@
+.body {
+    overflow: scroll;
+}
+
+.header {
+    margin-top: 0px;
+}
+
+.header .container {
+    height: 10vh;
+    background: rgb(50, 50, 50);
+}
+
+/** header 左部分*/
+.header-left {
+    width: 40%;
+    height: 100%;
+    margin-left: 2vw;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100%;
+    max-height: 8vh;
+}
+
+/** header 右部分*/
+.header-right {
+    width: 50%;
+    height: 90%;
+    margin-right: 2vw;
+    float: right;
+    position: relative;
+}
+
+.header-right ul {
+    position: absolute;
+    bottom: 0;
+}
+
+.header-right li {
+    width: 20%;
+    font-size: 20px;
+    display: inline-block; /** 横並びにするため */
+    text-align: center;
+}
+
+.header-right a {
+    text-decoration: none; /** 下線を消すため */
+    color: white;
+}
+
+.header-right a:hover {
+    color: rgb(197, 0, 0);
+}
+
+.header-right ul {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+}
+
+/** リストの文字サイズ調整 */
+@media screen and (max-width:1023px) {
+    .header-right li {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:1023px) {
+    .header-right li {
+        font-size: 15px;
+    }
+}

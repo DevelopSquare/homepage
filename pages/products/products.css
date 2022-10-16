@@ -1,0 +1,66 @@
+.main-area {
+  width: 100%;
+  display: flex;
+  /** 縦並び */
+  flex-direction: column;
+}
+
+.product {
+  margin: 0 15vw 5vh 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  width: 50vw;
+  height: 200px;
+  margin-left: 3vw;
+  float: left;
+}
+
+.img {
+  width: 30vw;
+  height: 30vh;
+  float: right;
+}
+
+/* コンテンツの色設定 */
+.timecapsule {
+  background: linear-gradient(90deg, #8d93c870, #ffa07a00);
+}
+
+.tdboardgame {
+  background: linear-gradient(90deg, #ff8c00, #ffa07a00);
+}
+
+.todoscheduling {
+  background: linear-gradient(90deg, #df7fb7, #ffa07a00);
+}
+
+.traffic-survey-ai {
+  background: linear-gradient(90deg, #c79c5b, #ffa07a00);
+}
+
+.ganimation {
+  background: linear-gradient(90deg, #32cd32, #ffa07a00);
+}
+
+/*幅小さくなると画像表示が駄目になるので縦方向にならべる*/
+@media screen and (max-width:639px) {
+  .img {
+    display: none;
+  }
+
+  .position-left, .position-right {
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+}
