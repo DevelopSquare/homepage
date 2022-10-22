@@ -1,5 +1,4 @@
 .member {
-  margin: 20vh 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -24,6 +23,7 @@
   width: 180px;
   height: 180px;
   margin: 3vh 1vw;
+  border-radius: 5px;
 }
 
 .Kato-Mori-color {

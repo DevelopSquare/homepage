@@ -1,14 +1,19 @@
-.body {
-    overflow: scroll;
+body {
+    padding-top: 10vh;
 }
 
 .header {
+    width: 100%;
     margin-top: 0px;
+    top: 0;
+    left: 0;
+    z-index:10000;
+    position: fixed;
 }
 
 .header .container {
     height: 10vh;
-    background: rgb(50, 50, 50);
+    background: linear-gradient(0deg, #1c1c1dcb, hsla(0, 0%, 66%, 0.082));
 }
 
 /** header 左部分*/

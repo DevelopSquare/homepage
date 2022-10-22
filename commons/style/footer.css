@@ -1,7 +1,7 @@
 .footer {
   height: 6vh;
   width: auto;
-  background: rgb(50, 50, 50);
+  background: linear-gradient(-180deg, #1c1c1dcb, hsla(0, 0%, 66%, 0.082));
 }
 
 .icon {
