@@ -67,8 +67,11 @@
   background: linear-gradient(90deg, #32cd32, #ffa07a00 65%);
 }
 
-/*幅小さくなると画像表示が駄目になるので縦方向にならべる*/
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1500px) {
+  .product {
+    margin: 0 5vw 5vh 5vw;
+  }
+
   .description {
     width: 70vw;
     margin-left: 0;
@@ -81,5 +84,10 @@
   .product {
     width: 90%;
   }
+}
 
+@media screen and (max-width:520px) {
+  .title {
+    font-size: 2em;
+  }
 }
