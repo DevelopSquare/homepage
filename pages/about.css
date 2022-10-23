@@ -9,14 +9,14 @@
   margin: 20px 0;
 }
 
-.about-area .box {
-  margin: 3%;
-  display: block;
-  vertical-align: middle;
-  position: relative;
+.mainimg {
+  width: 50vw;
+  border-radius: 20px;
+  margin-bottom: 5vh;
 }
 
-.mainimg {
-  width: 60vw;
-  border-radius: 20px;
+@media screen and (max-width:1070px) {
+  .mainimg {
+    width: 60vw;
+  }
 }

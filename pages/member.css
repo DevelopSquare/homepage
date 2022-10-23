@@ -5,7 +5,6 @@
 }
 
 .member :hover {
-  height: 180px;
   transition: 0.3s;
   box-shadow: 0px 0px 19px 10px black;
   color: rgb(0, 0, 0);
@@ -13,7 +12,7 @@
 
 .member a {
   font-size: 23px;
-  padding:40px 0;
+  padding-top: 70px;
   color: ghostwhite;
   text-align: center;
   text-decoration: none;
@@ -21,33 +20,33 @@
 
 .square {
   width: 180px;
-  height: 180px;
+  height: 110px;
   margin: 3vh 1vw;
   border-radius: 5px;
 }
 
 .Kato-Mori-color {
-  background: rgb(250, 20, 1, 0.8);
+  background: rgb(250, 20, 1, 0.7);
 }
 
 .kicu-color {
-  background: rgb(999, 200, 0, 0.8);
+  background: rgb(999, 200, 0, 0.7);
 }
 
 .MtF-color {
-  background: rgb(0, 40, 999, 0.8);
+  background: rgb(0, 40, 999, 0.7);
 }
 
 .mori-color {
-  background: rgba(0, 128, 0, 0.8);
+  background: rgba(0, 128, 0, 0.7);
 }
 
 .takahashi1130-color {
-  background: rgb(800, 100, 40, 0.8);
+  background: rgb(800, 100, 40, 0.7);
 }
 
 .Tora-color {
-  background: rgb(0, 160, 999, 0.8);
+  background: rgb(0, 160, 999, 0.7);
 }
 
 @media screen and (max-width:639px) {

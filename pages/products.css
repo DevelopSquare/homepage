@@ -27,36 +27,48 @@
   margin-left: 3vw;
   float: left;
 }
+.title {
+  font-weight: 500;
+  font-size: 2.5em;
+}
+.sub-description {
+  color: rgb(68, 68, 68);
+}
 
 .img {
-  width: 30vw;
-  height: 30vh;
+  min-width: 500px;
+  height: 250px;
+  border-radius: 0px 5px 5px 0px;
   float: right;
+  object-fit: cover;
 }
 
 /* コンテンツの色設定 */
 .timecapsule {
-  background: linear-gradient(90deg, #8d93c870, #ffa07a00);
+  background: linear-gradient(90deg, #8d93c870, #ffa07a00 65%);
+}
+.timecapsule .img {
+  background: linear-gradient(90deg, #3e6fda7a, #55cee456 100%);
 }
 
 .tdboardgame {
-  background: linear-gradient(90deg, #ff8c00, #ffa07a00);
+  background: linear-gradient(90deg, #ff8c00, #ffa07a00 65%);
 }
 
 .todoscheduling {
-  background: linear-gradient(90deg, #df7fb7, #ffa07a00);
+  background: linear-gradient(90deg, #df7fb7, #ffa07a00 65%);
 }
 
 .traffic-survey-ai {
-  background: linear-gradient(90deg, #c79c5b, #ffa07a00);
+  background: linear-gradient(90deg, #c79c5b, #ffa07a00 65%);
 }
 
 .ganimation {
-  background: linear-gradient(90deg, #32cd32, #ffa07a00);
+  background: linear-gradient(90deg, #32cd32, #ffa07a00 65%);
 }
 
 /*幅小さくなると画像表示が駄目になるので縦方向にならべる*/
-@media screen and (max-width:730px) {
+@media screen and (max-width:1100px) {
   .description {
     width: 70vw;
     margin-left: 0;
