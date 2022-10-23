@@ -1,0 +1,93 @@
+.main-area {
+  width: 100%;
+  display: flex;
+  /** 縦並び */
+  flex-direction: column;
+}
+
+.product {
+  margin: 0 15vw 5vh 15vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: anm 0.6s;
+}
+@keyframes anm {
+    0% {
+        transform: translate(200%, 0%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+.description {
+  width: 50vw;
+  margin-left: 3vw;
+  float: left;
+}
+.title {
+  font-weight: 500;
+  font-size: 2.5em;
+}
+.sub-description {
+  color: rgb(68, 68, 68);
+}
+
+.img {
+  min-width: 500px;
+  height: 250px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  object-fit: cover;
+}
+
+/* コンテンツの色設定 */
+.timecapsule {
+  background: linear-gradient(90deg, #8d93c870, #ffa07a00 65%);
+}
+.timecapsule .img {
+  background: linear-gradient(90deg, #3e6fda7a, #55cee456 100%);
+}
+
+.tdboardgame {
+  background: linear-gradient(90deg, #ff8c00, #ffa07a00 65%);
+}
+
+.todoscheduling {
+  background: linear-gradient(90deg, #df7fb7, #ffa07a00 65%);
+}
+
+.traffic-survey-ai {
+  background: linear-gradient(90deg, #c79c5b, #ffa07a00 65%);
+}
+
+.ganimation {
+  background: linear-gradient(90deg, #32cd32, #ffa07a00 65%);
+}
+
+@media screen and (max-width:1500px) {
+  .product {
+    margin: 0 5vw 5vh 5vw;
+  }
+
+  .description {
+    width: 70vw;
+    margin-left: 0;
+  }
+  
+  .img {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .title {
+    font-size: 2em;
+  }
+}
