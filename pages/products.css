@@ -11,15 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: anm 0.6s;
+  background: linear-gradient(90deg, #4c4cae70, #ffa07a00 85%);
+  transition: background 0.5s;
 }
-@keyframes anm {
-    0% {
-        transform: translate(200%, 0%);
-    }
-    100% {
-        transform: translate(0%, 0%);
-    }
+
+.product:hover {
+  background-color: rgb(113, 113, 113);
+  color: rgb(255, 255, 255);
 }
 
 .description {
@@ -27,12 +25,12 @@
   margin-left: 3vw;
   float: left;
 }
+
 .title {
   font-weight: 500;
   font-size: 2.5em;
 }
 .sub-description {
-  color: rgb(68, 68, 68);
 }
 
 .img {
@@ -44,7 +42,7 @@
 }
 
 /* コンテンツの色設定 */
-.timecapsule {
+/* .timecapsule {
   background: linear-gradient(90deg, #8d93c870, #ffa07a00 65%);
 }
 .timecapsule .img {
@@ -65,7 +63,7 @@
 
 .ganimation {
   background: linear-gradient(90deg, #32cd32, #ffa07a00 65%);
-}
+} */
 
 @media screen and (max-width:1500px) {
   .product {

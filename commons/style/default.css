@@ -7,6 +7,7 @@ body {
     color: rgb(50, 50, 50);
     font-family: 'Noto Sans JP', sans-serif;
     background: #f0f8ff;
+    margin: 0 auto;
 }
 
 .sub-container {
@@ -15,7 +16,7 @@ body {
 
 .headline {
     margin: 4vh;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-weight: 1000;
     border-top: solid 5px;
     border-image: linear-gradient(to right, #00dade00 0%,#616161 50%, #00dade00 100%);
@@ -26,7 +27,30 @@ body {
 
 .subheadline {
     margin: 3vh;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 500;
     text-align: center;
+}
+
+
+/** PC */
+@media screen and (min-width:960px) {
+    body {
+        width: 60vw;
+        font-size: 30px;
+    }
+}
+/** タブレット */
+@media screen and (min-width:520px) {
+    body {
+        width: 70vw;
+        font-size: 25px;
+    }
+}
+/** スマホ */
+@media screen and (max-width:519px) {
+    body {
+        width: 80vw;
+        font-size: 20px;
+    }
 }
