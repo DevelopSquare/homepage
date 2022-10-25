@@ -10,8 +10,8 @@
 
 .land-area span {
     display: block;
-    font-size: 2rem;
-    margin: 5vh 0;
+    font-size: 1.5rem;
+    margin: 3vh 0;
     color: rgb(255, 255, 255);
     animation: cmnt-anm 5s infinite;
 }
@@ -23,7 +23,7 @@
         transform: translate(0%, 0%);
     }
     75% {
-        transform: translate(5%, 100%);
+        transform: translate(0%, 70%);
     }
     100% {
         transform: translate(0%, 0%);
@@ -31,7 +31,7 @@
 }
 
 .land-area span:nth-child(1) {
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
 .land-area span:nth-child(2) {
@@ -82,13 +82,15 @@
     animation-delay:  0.72s;
 }
 
-
-@media screen and (max-width:639px) {
+/** タブレット */
+@media screen and (max-width:960px) {
+    .land-area {
+        height: 30vh;
+    }
 }
-
-@media only screen and (min-width:640px) and (max-width:1023px) {
-}
-
-@media screen and (min-width:1024px) {
-    /*pc用のcssを記述*/
+/** スマホ */
+@media screen and (max-width:520px) {
+    .land-area {
+        height: 20vh;
+    }
 }

@@ -1,12 +1,13 @@
 .footer {
+  left: 0;
   height: 6vh;
-  width: auto;
+  width: 100vw;
   background: linear-gradient(-180deg, #1c1c1dcb, hsla(0, 0%, 66%, 0.082));
+  position: absolute;
 }
 
 .icon {
   height: 5vh;
   right: 0;
-  margin: 0.5vh 2vw 0 0; /** 上 右 下 左 */
-  position: absolute;
+  margin: 0.5vh 0 0 2vw;
 }

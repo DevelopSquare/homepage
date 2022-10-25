@@ -1,26 +1,26 @@
-.member {
+.member-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.member :hover {
+.member-area :hover {
   transition: 0.3s;
   box-shadow: 0px 0px 19px 10px black;
   color: rgb(0, 0, 0);
 }
 
-.member a {
-  font-size: 23px;
-  padding-top: 70px;
+.member-area a {
+  font-size: 1.2rem;
+  padding-top: 45px;
   color: ghostwhite;
   text-align: center;
   text-decoration: none;
 }
 
-.square {
-  width: 180px;
-  height: 110px;
+.profile-block {
+  width: 130px;
+  height: 80px;
   margin: 3vh 1vw;
   border-radius: 5px;
 }
@@ -48,13 +48,3 @@
 .Tora-color {
   background: rgb(0, 160, 999, 0.7);
 }
-
-@media screen and (max-width:639px) {
-}
-
-@media only screen and (min-width:640px) and (max-width:1199px) {
-}
-
-@media screen and (min-width:1200px) {
-  /*pc用のcssを記述*/
-} 
