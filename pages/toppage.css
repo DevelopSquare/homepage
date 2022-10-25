@@ -82,9 +82,15 @@
     animation-delay:  0.72s;
 }
 
-@media only screen and (min-width:640px) and (max-width:1023px) {
+/** タブレット */
+@media screen and (max-width:960px) {
+    .land-area {
+        height: 30vh;
+    }
 }
-
-@media screen and (min-width:1024px) {
-    /*pc用のcssを記述*/
+/** スマホ */
+@media screen and (max-width:520px) {
+    .land-area {
+        height: 20vh;
+    }
 }

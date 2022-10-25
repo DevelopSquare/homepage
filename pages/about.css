@@ -1,16 +1,24 @@
 .about-area {
   width: auto;
   position: relative;
+  text-align: center;
 }
 
-.mainimg {
+.about-img {
   width: 50%;
   border-radius: 5px;
   margin-bottom: 5vh;
 }
 
-@media screen and (max-width:1070px) {
-  .mainimg {
-    width: 60vw;
+/** タブレット */
+@media screen and (max-width:960px) {
+  .about-img {
+    width: 70%;
+  }
+}
+/** スマホ */
+@media screen and (max-width:520px) {
+  .about-img {
+    width: 80%;
   }
 }

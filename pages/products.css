@@ -1,4 +1,4 @@
-.main-area {
+.products-area {
   width: 100%;
   display: flex;
   /** 縦並び */
@@ -6,7 +6,7 @@
 }
 
 .product {
-  margin: 0 15vw 5vh 15vw;
+  margin: 0 5vw 5vh 5vw;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -20,70 +20,54 @@
   color: rgb(255, 255, 255);
 }
 
-.description {
+.product-description-area {
   width: 50vw;
   margin-left: 3vw;
   float: left;
 }
 
-.title {
+.product-title {
   font-weight: 500;
-  font-size: 2.5em;
-}
-.sub-description {
+  font-size: 1.7rem;
 }
 
-.img {
-  min-width: 500px;
+.product-sub-description {
+  font-size: 0.8rem;
+  margin-right: 2vw;
+}
+
+.product-img {
+  min-width: 400px;
   height: 250px;
   border-radius: 0px 5px 5px 0px;
   float: right;
   object-fit: cover;
 }
 
-/* コンテンツの色設定 */
-/* .timecapsule {
-  background: linear-gradient(90deg, #8d93c870, #ffa07a00 65%);
-}
-.timecapsule .img {
-  background: linear-gradient(90deg, #3e6fda7a, #55cee456 100%);
-}
-
-.tdboardgame {
-  background: linear-gradient(90deg, #ff8c00, #ffa07a00 65%);
-}
-
-.todoscheduling {
-  background: linear-gradient(90deg, #df7fb7, #ffa07a00 65%);
-}
-
-.traffic-survey-ai {
-  background: linear-gradient(90deg, #c79c5b, #ffa07a00 65%);
-}
-
-.ganimation {
-  background: linear-gradient(90deg, #32cd32, #ffa07a00 65%);
-} */
-
+/** タブレット(ここだけ例外の1500px) */
 @media screen and (max-width:1500px) {
   .product {
-    margin: 0 5vw 5vh 5vw;
+    margin: 0 0 3vh 0;
   }
 
-  .description {
-    width: 70vw;
-    margin-left: 0;
+  .product-description-area {
+    width: 100vw;
+    margin: 5px;
+  }
+
+  .product-title {
+    font-size: 1.4rem;
   }
   
-  .img {
+  .product-sub-description {
+    font-size: 0.8rem;
+  }
+
+  .product-img {
     display: none;
   }
-
-  .product {
-    width: 90%;
-  }
 }
-
+/** スマホ */
 @media screen and (max-width:520px) {
   .title {
     font-size: 2em;

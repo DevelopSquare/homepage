@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 body {
+    width: 60vw;
+    font-size: 30px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -32,25 +34,17 @@ body {
     text-align: center;
 }
 
-
-/** PC */
-@media screen and (min-width:960px) {
-    body {
-        width: 60vw;
-        font-size: 30px;
-    }
-}
 /** タブレット */
-@media screen and (min-width:520px) {
+@media screen and (max-width:960px) {
     body {
         width: 70vw;
         font-size: 25px;
     }
 }
 /** スマホ */
-@media screen and (max-width:519px) {
+@media screen and (max-width:520px) {
     body {
-        width: 80vw;
+        width: 90vw;
         font-size: 20px;
     }
 }
