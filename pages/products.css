@@ -42,6 +42,7 @@
   border-radius: 0px 5px 5px 0px;
   float: right;
   object-fit: cover;
+  background-color: rgba(149, 198, 240, 0.938);
 }
 
 /** タブレット(ここだけ例外の1500px) */
