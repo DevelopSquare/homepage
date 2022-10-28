@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.profile{
+    text-align: center;
+}
+.profile h1{
+    margin-top: 100px;
+    font-size: 300%;
+}
+
+.profile h2{
+    font-size: 200%;
+}
+
+.icon{
+    margin-left: 40%;
+    max-width: 20%;
+    box-shadow: 4px 0px 10px 2px #453243;
+}
+
+.icon-img{
+    width: 100%;
+}
+
+.skill-area {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.rotate-skill-ball li{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    background-color: rgba(0, 0, 255, 0.333);
+    border-radius: 100%;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg) translateX(-100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(-100px) rotate(-360deg);
+    }
+}
+

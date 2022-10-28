@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <div class="header-area">
             <div class="header-left">
                 <a href="./toppage.html">
-                    <img src="../imgs/logo_transparent.png" class="header-logo"  onmousedown="return false;">
+                    <img src="../imgs/logo3.png" class="header-logo"  onmousedown="return false;">
                 </a>
             </div>
             <div class="header-right">
