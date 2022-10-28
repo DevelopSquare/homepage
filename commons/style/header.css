@@ -39,6 +39,7 @@ body {
 
 .header-right ul {
     width: 100%;
+    padding: 0;
     bottom: 0;
     text-align: right;
     position: absolute;
@@ -53,7 +54,7 @@ body {
 
 .header-right a {
     text-decoration: none; /** 下線を消すため */
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .header-right a:hover {
@@ -63,8 +64,8 @@ body {
 /** タブレット */
 @media screen and (max-width:960px) {
     .header-right {
-        width: 50%;
-        margin-right: 40px;
+        width: 55%;
+        margin-right: 10px;
     }
 
     .header-right li {
@@ -73,10 +74,6 @@ body {
 }
 /** スマホ */
 @media screen and (max-width:520px) {
-    .header-right {
-        width: 40%;
-    }
-
     .header-right li {
         width: 60px;
         font-size: 0.7rem;
