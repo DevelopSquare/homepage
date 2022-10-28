@@ -53,7 +53,7 @@ body {
 
 .header-right a {
     text-decoration: none; /** 下線を消すため */
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .header-right a:hover {
