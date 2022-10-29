@@ -1,23 +1,15 @@
-@charset "utf-8";
-
 .main-area{
-    height:90vh;
-    width:auto;
-    background:#303030;
-    background-size:cover;
-    position: relative;
+  height:100vh;
+  width:auto;
+  background:#303030;
+  background-size:cover;
+  position: relative;
  color:black;
 }
 
-.main-area .main-img{
-    height:500px;
-    width:auto;
-    max-width:100%;
-}
-
 .main-area .container{
-    height:50%;
-    width:90%;
+    height: 50%;
+    width: 90%;
     position: absolute;  /*要素を浮かす*/
     /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
     top: 0;
@@ -25,30 +17,28 @@
     bottom: 0;
     left: 0;
     margin: auto; /*上下左右中央に*/
-
     background:none;
-}
-
-.main-area h1{
-    font-size:5vw;
-    text-align:center
 }
 
 .main-area .left-box{
   display: inline-block;
   vertical-align: middle;
   color: black;
-  width:400px;
-  height:400px;
-  background-color: #f0f8ff;
+  width:30%;
+  height: auto;
   margin: 10px;
+}
+
+.main-area .main-img{
+  width: 100%;
+  height: auto;
 }
 
 .main-area .right-box{
   display: inline-block;
   vertical-align: middle;
   color: white;
-  width:500px;
+  width:50%;
   height:400px;
   background-color: #404040;
   padding: 40px;
@@ -57,4 +47,20 @@
 .main-area .right-box h4{
   font-family: "ＭＳ Ｐゴシック",sans-serif;
   text-align:left;
+}
+
+/** タブレット */
+@media screen and (max-width:960px) {
+  .main-area .container{
+    height: 100%;
+  }
+  .main-area .left-box{
+    width:50%;
+  }
+}
+/** スマホ */
+@media screen and (max-width:520px) {
+  .main-area .left-box{
+    width:70%;
+  }
 }

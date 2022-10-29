@@ -104,6 +104,10 @@
 }
 /** スマホ */
 @media screen and (max-width:520px) {
+  .product {
+    margin: 2vh 0 1vh 0;
+  }
+
   .title {
     font-size: 2em;
   }

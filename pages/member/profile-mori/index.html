@@ -9,27 +9,23 @@
   </head>
 
   <body>
-    <div id="app">
-      <h1>Profile</h1>
-      <div class="icon">
-          <img class="icon-img"  src="image/icon.gif"  width=200px;  height=200px;>
-      </div>
-      <h2>mori</h2>
-      <div class="skill-area">
-        <ul class="rotate-skill-ball" v-for="skill in mySkills" :key="skill.name">
-          <li>{{ skill.name }}</li>
-        </ul>
-      </div>
+    <div id="mori-area">
+      <h1>{{ name }}</h1>
+      <h3 v-for="desc in descriptions">
+          {{ desc.msg }}
+      </h3>
     </div>
   </body>
 
   <script>
     new Vue({
-      el: '#app',
+      el: '#mori-area',
       data: {
-        mySkills: [
-          {name: 'github'},
-          {name: 'twitter'}
+        name: 'Mori Yuga',
+        descriptions: [
+          { msg: 'Apexが大好きな人'},
+          { msg: '音楽はv系が好き。最近のはやりはv系じゃないけど[Alexandros]'},
+          { msg: 'メイン言語はPythonとJavaScript(Vue.js)'}
         ]
       }
     });
